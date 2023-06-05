@@ -1,0 +1,44 @@
+.container-one {
+    width: 80%;
+    height: 100px;
+    background-color: coral;
+    margin: 20px;
+    padding: 50px;
+    overflow-x: visible;
+}
+
+.content {
+    width: 600px;
+}
+
+.container-two {
+    width: 60%;
+    height: 200px;
+    background-color: yellowgreen;
+    margin: 50px 30px ;
+}
+
+#div1,
+#div2,
+#div3,
+#div4 {
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    margin-bottom: 12px;
+    background-color: beige;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#div1 {
+    overflow-x: hidden;
+    background-color: aqua;
+}
+#div2 {
+    overflow-x:scroll;
+}
+#div3 {
+    overflow-x:visible;
+}
+#div4 {
+    overflow-x:auto;
+}

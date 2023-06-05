@@ -1,0 +1,53 @@
+.greetring{
+    color: coral;
+    width: 150px;
+    font-size: 50px;
+}
+.other {
+    color: blueviolet;
+    font-size: 25px;
+
+}
+
+#rock {
+    color:blue;
+}
+
+.divider {
+    background-color: red;
+}
+
+.blue, .red {
+    color:blue;
+}
+
+footer p {
+    color: darkmagenta;
+    font-size: 30px;
+}
+
+
+div > h2 {
+    color:blue;
+}
+
+.container > h2 {
+    color: chartreuse;
+
+}
+
+li:last-child {
+    color: cadetblue;
+    font-size: 44px;
+}
+
+li:first-child {
+    font-size: 60px;
+    background-color: yellow;
+}
+
+a[href="hola.com"] {
+    color: pink;
+    font-size: xx-large;
+}
+

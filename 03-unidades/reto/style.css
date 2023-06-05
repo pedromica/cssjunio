@@ -1,0 +1,15 @@
+* {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}
+main {
+    max-height: 1000px;
+    
+}
+
+main,footer {
+    padding: 16px;
+}

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    color: white
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header, nav {
+    background-color: orange;
+}
+
+header img {
+    width: 240px;
+    margin-top: 20px;
+}
+
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+nav > .container {
+    width: 100%;
+}
+
+nav > .container ul {
+    display: flex;
+    width: 100%;
+}
+
+nav > .container ul li {
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+nav > .container ul li:first-child {
+    background-color: rgb(32,32,158);
+}
+
+main > .container {
+    background-color: rgb(245,240,240);
+    height: 75vh;
+    justify-content: space-evenly;
+}
+
+h2 {
+    color: rgb(99, 99, 255);
+}
+
+#about {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about > img {
+    width: 250px;
+    margin: 10px;
+}
+
+#about > p {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#skills > ul {
+    display: flex;
+}
+
+#skills > ul li {
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    height: 5vh;
+    background-color: rgb(99, 99, 255);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color:white
+}
