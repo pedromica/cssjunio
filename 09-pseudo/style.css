@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input {
+    width: 200px;
+    border: none;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap:5px
+
+}
+
+.contenedor {
+    background-color:red;
+    width: 230px;
+    height: 100px;
+    position: relative;
+    left: 80px;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: solid 2px black;
+}
+
+
+div:hover {
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+button {
+    width: 100px;
+    position: relative;
+    top: 25px;
+}
+
+button:active {
+    color: orange;
+    font-weight: 400;
+    background-color: black;
+}
+
+a:any-link {
+    color: black;
+    font-weight: bold;
+}
+
+.contenedor-uno {
+    background-color:red;
+    width: 230px;
+    height: 100px;
+    position: relative;
+    left: 80px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: solid 2px black;
+    padding: 30px;
+}
+
+input:checked + label {
+    color: black;
+    font-weight: 900;
+    background-color: aqua;
+}
