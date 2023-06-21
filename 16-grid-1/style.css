@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 6em max-content;
+    gap: 1em;
+    height: 300px;
+    border-bottom: 1px dashed black;
+}
+
+.item-container {
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--color);
+    text-align: center;
+    font-size: 2em;
+
+}
